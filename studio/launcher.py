@@ -52,3 +52,5 @@ if os.environ['PACKAGE_PATH'] not in sys.path:
 from startup import studioLauncher
 imp.reload(studioLauncher)
 studioLauncher.loadWindow()
+
+#End###########################################################################################
