@@ -12,8 +12,6 @@ Author: Subin. Gopi (subing85@gmail.com)
 Description
     Package
 '''
-import time
-
 import os
 import json
 import warnings
