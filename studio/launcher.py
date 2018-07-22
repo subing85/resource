@@ -46,6 +46,7 @@ os.environ['LAUNCHER_PATH'] = ('%s/%s'% (os.environ['STARTUP_PATH'], 'studioLaun
 #show
 os.environ['SHOW_INPUT_FILE'] = ('%s/%s'% (os.environ['PREST_PATH'], 'showInput.json'))
 os.environ['SHOW_DEFAULT_FILE'] = ('%s/%s'% (os.environ['PREST_PATH'], 'showDefault.json'))
+os.environ['STEP_INPUT_FILE'] = ('%s/%s'% (os.environ['PREST_PATH'], 'stepInput.json'))
 
 if os.environ['PACKAGE_PATH'] not in sys.path:
     sys.path.append(os.environ['PACKAGE_PATH'])
