@@ -35,7 +35,7 @@ function studio
 			if [ $1 = "help" ]; then
 				echo "Avilable bulndels are"
 				for each_bundle in ${bundels[@]}; do
-					echo "  "$count". [ "$each_bundle" ]		example :studio "$each_bundle
+					echo "  "$count". [ "$each_bundle" ]	example :studio "$each_bundle
 					((count++))
 				done
 			fi
@@ -45,6 +45,7 @@ function studio
 				current_bundle=$STUDIO_PATH"/"$1"/main.sh"
 				if [ -G $current_bundle ]; then
 					source $current_bundle
+					echo $current_bundle
 				else
 					echo "not found bundle "$current_bundle
 				fi

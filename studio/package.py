@@ -1,3 +1,4 @@
+#!/usr/bin/python
 '''
 Package v0.1 
 Date : July 21, 2018
@@ -29,7 +30,7 @@ def getVersion():
       
     latest = '0.0.0'
     if 'Version' in data:
-        latest = data['Version']        
+        latest = data['Version'] 
     return latest
     
     
