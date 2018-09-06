@@ -16,6 +16,7 @@ import warnings
 
 PACKAGE_ROOT = os.environ['PACKAGE_ROOT']
 
+
 def getVersion():
     '''
     Description -Standalone function set for operation to return the latest package version.
@@ -30,7 +31,7 @@ def getVersion():
       
     latest = '0.0.0'
     if 'Version' in data:
-        latest = data['Version'] 
+        latest = data['Version']
     return latest
     
     
@@ -53,6 +54,5 @@ def readJsonData (file):
         raise Exception (result)     
     openData.close ()    
     return data 
-
 
 #End####################################################################################################################    

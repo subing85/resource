@@ -2,7 +2,7 @@
 #
 #  Studio Bash v0.0.1
 #  Date : August 29, 2018
-#  Last modified: August 29, 2018
+#  Last modified: ASeptember 06, 2018
 #  Author# Subin. Gopi (subing85@gmail.com)
 #  Copyright (c) 2018, Subin Gopi
 #  All rights reserved.
@@ -12,6 +12,7 @@
 #  Description
 #      This bash module for configure and launch the studio application or bundles.  
 
+#clear
 function studio 
 	{
 		studio_path="/venture/resource/studio"		

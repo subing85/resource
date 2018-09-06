@@ -15,7 +15,7 @@
 echo ""
 echo "####################################################"
 echo "Studio Env v0.0.1"
-echo "Last modified: August 29, 2018"
+echo "Last modified: September 06, 2018"
 echo "Author: Subin. Gopi (subing85@gmail.com)"
 echo "Copyright (c) 2018, Subin Gopi All rights reserved."
 echo "####################################################"
@@ -36,6 +36,6 @@ export COMMON_PYTHON_DIR=$RESOURCE_PATH"/python"
 export PYTHON_DIR=$COMMON_PYTHON_DIR"/python-"$PYTHON_VERSION_LONGNAME
 export PYTHON_LIB_PATH=$PYTHON_DIR$"/Lib"
 export PYTHON_SITE_PACK_PATH=$PYTHON_LIB_PATH$"/site-packages"
-export PYTHONPATH=$PYTHON_DIR
+export PYTHONPATH=$PYTHON_DIR:$STUDIO_PATH
 
 # End: : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :
