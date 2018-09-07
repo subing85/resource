@@ -33,26 +33,32 @@ function studio
 			
 			#help			
 			let count=1
-			if [ $1 = "help" ]; then
+			if [ $1 = "--help" ] || [ $1 = "-h" ]; then
 				echo "Avilable bulndels are"
 				for each_bundle in ${bundels[@]}; do
-					echo "  "$count". [ "$each_bundle" ]	example :studio "$each_bundle
+					echo "  "$count". [ "$each_bundle" ]	example: studio -a or --app "$each_bundle  "-s or --show showname"
 					((count++))
 				done
-			fi
+			fi			
+
+			#set show		
+			if [ ! -s $3 ] || [ ! -show $3 ]; then
+				export CURRENT_SHOW=$4
+				echo "CURRENT_SHOW #3 :  "$CURRENT_SHOW	
+			fi					
 			
 			#execute bundle main
-			if [ $1 != "help" ]; then			
-				current_bundle=$STUDIO_PATH"/"$1"/main.sh"
+			if [ $1 = "--app" ] || [ $1 = "-a" ]; then
+				current_bundle=$STUDIO_PATH"/"$2"/main.sh"
 				if [ -G $current_bundle ]; then
 					source $current_bundle
 					echo $current_bundle
 				else
 					echo "not found bundle "$current_bundle
 				fi
-			fi
+			fi	
 		else
 			echo "not found directory "$studio_path
 		fi 	
 	}
-studio $1
+studio $1 $2 $3 $4

@@ -4,23 +4,21 @@ PACKAGE_VERSION=`python -c "import package; print package.getVersion()"`
 #RESULT_FOO=`python -c 'import test; print test.get_foo()'`
 #RESULT=$(python -c 'import test; print test.get_foo()')
 
-export PACKAGE_PATH=$PACKAGE_ROOT"/"$PACKAGE_VERSION
-export ICON_PATH=$PACKAGE_PATH"/icon"
-export PYTHONPATH=$PYTHONPATH:$PACKAGE_PATH
+#export PACKAGE_PATH=$PACKAGE_ROOT"/"$PACKAGE_VERSION
+export PACKAGE_PATH=$PACKAGE_USER_PATH"/"$USER"/package"
+export PRESET_PATH=$PACKAGE_PATH"/preset"
 
-#blender
-export GIMP_VERSION="gimp-2.10.6"
-export GIMP_PATH=$SOFTWARE_PATH/$GIMP_VERSION
+export ICON_PATH=$PACKAGE_PATH"/icon"
+export SHOW_INPUT_FILE=$PACKAGE_PATH"/preset/showInput.json"
+export PACKAGE_PUBLISH_PATH=$PACKAGE_PATH
+export PYTHONPATH=$PYTHONPATH:$PACKAGE_PATH
 
 echo ""
 echo "Current package version: "$PACKAGE_VERSION
-echo "Blender"
-echo "Release: 2.79b-x86_64"
-echo "version: "$GIMP_VERSION
+echo "Studio Launcher"
+echo "0.0.1 Release"
 echo ""
 
-#python $STUDIO_PATH"/blender/__init__.py"
-
-$GIMP_PATHs"/gimp"
+python $STUDIO_PATH"/studiopipe/__init__.py"
 
 # End: : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :

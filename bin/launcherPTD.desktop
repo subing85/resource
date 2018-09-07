@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Name=LauncherPTD 0.0.1
 Comment=Studio Launcher
-Exec=studio launcherPTD
+Exec=studio -a launcherPTD
 Icon=/venture/icons/launcherPTD.png
 Categories=Application
 Version=0.0.1

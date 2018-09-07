@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Name=Launcher 0.0.1
 Comment=Studio Launcher
-Exec=studio launcher
+Exec=studio -a launcher
 Icon=/venture/icons/launcher.png
 Categories=Application
 Version=0.0.1

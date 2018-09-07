@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Eclipse Photon
+Comment=Eclipse Photon
+Exec=studio -a eclipse
+Icon=/software/eclipse/icon.xpm
+Categories=Application;Development;Java;IDE
+Version=Photon
+Type=Application
+Terminal=0

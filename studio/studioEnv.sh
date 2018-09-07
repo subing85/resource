@@ -38,4 +38,10 @@ export PYTHON_LIB_PATH=$PYTHON_DIR$"/Lib"
 export PYTHON_SITE_PACK_PATH=$PYTHON_LIB_PATH$"/site-packages"
 export PYTHONPATH=$PYTHON_DIR:$STUDIO_PATH
 
+#software
+export SOFTWARE_PATH=$DRIVE$"/software"
+
+#data base
+export DATABASE_PATH=$DRIVE$"/database"
+
 # End: : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :
