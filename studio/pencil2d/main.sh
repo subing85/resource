@@ -9,18 +9,18 @@ export ICON_PATH=$PACKAGE_PATH"/icon"
 export PYTHONPATH=$PYTHONPATH:$PACKAGE_PATH
 
 #blender
-export BLENDER_VERSION="blender-2.79b"
-export BLENDER_PATH=$SOFTWARE_PATH/$BLENDER_VERSION
+export PENCIL2D_VERSION="pencil2d-0.6.1.1"
+export PENCIL2D_PATH=$SOFTWARE_PATH/$PENCIL2D_VERSION
 
 echo ""
 echo "Current package version: "$PACKAGE_VERSION
-echo "Blender"
-echo "Release: 2.79b-x86_64"
-echo "version: "$BLENDER_VERSION
+echo "Pencil 2D"
+echo "Release: 0.6.1.1"
+echo "version: "$PENCIL2D_VERSION
 echo ""
 
 #python $STUDIO_PATH"/blender/__init__.py"
 
-$BLENDER_PATH"/blender"
+$PENCIL2D_PATH"/pencil2d-linux-amd64-0.6.1.1.AppImage"
 
 # End: : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :

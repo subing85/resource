@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pencil2d
+Comment=Pencil2d
+Exec=studio -a pencil2d
+Icon=/venture/icons/pencil2d.png
+Categories=Application
+Version=0.6.1.1
+Type=Application
+Terminal=0

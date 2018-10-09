@@ -9,18 +9,18 @@ export ICON_PATH=$PACKAGE_PATH"/icon"
 export PYTHONPATH=$PYTHONPATH:$PACKAGE_PATH
 
 #blender
-export BLENDER_VERSION="blender-2.79b"
-export BLENDER_PATH=$SOFTWARE_PATH/$BLENDER_VERSION
+export SYNFIGSTUDIO_VERSION="synfigStudio-1.2"
+export SYNFIGSTUDIO_PATH=$SOFTWARE_PATH/$SYNFIGSTUDIO_VERSION
 
 echo ""
 echo "Current package version: "$PACKAGE_VERSION
-echo "Blender"
-echo "Release: 2.79b-x86_64"
-echo "version: "$BLENDER_VERSION
+echo "Synfig Studio"
+echo "Release: 1.2"
+echo "version: "$SYNFIGSTUDIO_VERSION
 echo ""
 
 #python $STUDIO_PATH"/blender/__init__.py"
 
-$BLENDER_PATH"/blender"
+$SYNFIGSTUDIO_PATH"/SynfigStudio-1.2.2-18.09.14-linux64-286f1.AppImage"
 
 # End: : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :

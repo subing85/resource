@@ -19,8 +19,9 @@ echo "Release: 2.79b-x86_64"
 echo "version: "$GIMP_VERSION
 echo ""
 
-#python $STUDIO_PATH"/blender/__init__.py"
+# python $STUDIO_PATH"/blender/__init__.py"
 
-$GIMP_PATHs"/gimp"
+# $GIMP_PATHs"/gimp"
+gimp &
 
 # End: : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :

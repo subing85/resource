@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Krita
+Comment=Krita
+Exec=studio -a krita
+Icon=/venture/icons/krita.png
+Categories=Application
+Version=4.1.3-x86_64
+Type=Application
+Terminal=0
