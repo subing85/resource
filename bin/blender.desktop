@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Blender
+Comment=Blender
+Exec=studio -a blender
+Icon=/venture/icons/blender.png
+Categories=Application
+Version=2.79b-x86_64
+Type=Application
+Terminal=0

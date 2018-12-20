@@ -1,12 +1,15 @@
-#!/usr/bin/python
 '''
 Package v0.1 
 Date : July 21, 2018
 Last modified: July 21, 2018
 Author: Subin. Gopi (subing85@gmail.com)
+
 # Copyright (c) 2018, Subin Gopi 
 # All rights reserved.
+
 # WARNING! All changes made in this file will be lost!
+#subin
+
 Description
     Package
 '''
@@ -15,7 +18,6 @@ import json
 import warnings
 
 PACKAGE_ROOT = os.environ['PACKAGE_ROOT']
-
 
 def getVersion():
     '''
@@ -31,7 +33,7 @@ def getVersion():
       
     latest = '0.0.0'
     if 'Version' in data:
-        latest = data['Version']
+        latest = data['Version']        
     return latest
     
     
@@ -54,5 +56,6 @@ def readJsonData (file):
         raise Exception (result)     
     openData.close ()    
     return data 
+
 
 #End####################################################################################################################    
