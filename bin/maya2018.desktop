@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Autodesk Maya 2018
+Comment=Run Autodesk Maya 2018
+Exec=/venture/resource/studio/maya2018/main.sh
+Icon=/venture/icons/maya2018.png
+Categories=Application;Graphics;
+Version=2018
+Type=Application
+Terminal=1
