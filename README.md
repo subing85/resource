@@ -1,4 +1,4 @@
-# Shot Film (TPS) Resource Source Code
+# Show Config Resource Source Code
 
  	Date : July 22, 2018
  
@@ -8,9 +8,5 @@
  	
  	version 0.0.31 linux 
 	
-
-	
-# Config
-	> Launcher Config
 
 *subing85@gmail.com*
