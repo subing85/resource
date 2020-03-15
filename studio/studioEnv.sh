@@ -14,19 +14,20 @@
 
 echo ""
 echo "####################################################"
-echo "Studio Env v0.0.1"
+echo "Studio Env v0.0.1"l
 echo "Last modified: September 06, 2018"
 echo "Author: Subin. Gopi (subing85@gmail.com)"
 echo "Copyright (c) 2018, Subin Gopi All rights reserved."
 echo "####################################################"
 
 export DRIVE="/venture"
+export SOURCE_CODE="/venture/source_code"
 
 #root
-export PACKAGE_ROOT=$DRIVE$"/package"
+export PACKAGE_ROOT=$SOURCE_CODE$"/package"
 export RESOURCE_PATH=$DRIVE$"/resource"
 export BIN_PATH=$DRIVE$"/bin"
-export PACKAGE_USER_PATH=$DRIVE$"/packages"
+export PACKAGE_USER_PATH=$SOURCE_CODE$"/packages"
 export STUDIO_PATH=$RESOURCE_PATH$"/studio"
 
 #python

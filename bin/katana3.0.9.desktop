@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Foundry Katana3.0.9
+Comment=Katana | Lighting & Look Development | Foundry Katana
+Exec=/venture/resource/studio/katana3.0.9/main.sh
+Icon=/venture/icons/katana3.0.9.png
+Categories=Application;Graphics;
+Version=3.0.9
+Type=Application
+Terminal=1

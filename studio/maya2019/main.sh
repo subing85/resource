@@ -6,7 +6,7 @@ export PYTHONPATH=$PYTHONPATH:$SOURCE_CODE
 
 echo "Maya"
 echo "Release: 2017"
-echo "version: Update-5"
+echo "version: "
 echo ""
 
 /usr/autodesk/maya2017/bin/maya 
