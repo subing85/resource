@@ -1,11 +1,22 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
-Encoding=UTF-8
-Name=Autodesk Maya 2016
-Comment=Run Autodesk Maya 2016
-Exec=/venture/resource/studio/maya2016/main.sh
-Icon=/venture/icons/maya2016.png
 Categories=Application;Graphics;
-Version=2016
+Comment[en_US]=Run Autodesk Maya 2016
+Comment=Run Autodesk Maya 2016
+Encoding=UTF-8
+Exec=/venture/resource/studio/maya2016/main.sh
+GenericName[en_US]=
+GenericName=
+Icon=/venture/icons/maya2016.png
+MimeType=
+Name[en_US]=Autodesk Maya 2016
+Name=Autodesk Maya 2016
+Path=
+StartupNotify=true
+Terminal=true
+TerminalOptions=
 Type=Application
-Terminal=1
+Version=3.2.3
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
