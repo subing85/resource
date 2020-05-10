@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Launcher 0.0.1
+Comment=Studio Launcher
+Exec=studio -a launcher
+Icon=/venture/source_code/icons/launcher.png
+Categories=Application
+Version=0.0.1
+Type=Application
+Terminal=0

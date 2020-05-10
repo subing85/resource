@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=synfigStudio
+Comment=Synfig Studio
+Exec=studio -a synfigStudio
+Icon=/venture/source_code/icons/synfigStudio.png
+Categories=Application
+Version=1.2-x86_64
+Type=Application
+Terminal=0

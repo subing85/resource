@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Krita
+Comment=Krita
+Exec=/venture/source_code/resource/studio/krita/main.sh
+Icon=/venture/source_code/icons/krita_001.png
+Categories=Application
+Version=2.79b-x86_64
+Type=Application
+Terminal=0
