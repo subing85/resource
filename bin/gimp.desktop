@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gimp
+Comment=gimp
+Exec=/venture/source_code/resource/studio/gimp/main.sh
+Icon=/venture/source_code/icons/gimp.png
+Categories=Application
+Version=gimp
+Type=Application
+Terminal=0 

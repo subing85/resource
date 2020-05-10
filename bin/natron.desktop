@@ -2,8 +2,8 @@
 Encoding=UTF-8
 Name=Natron
 Comment=Natron
-Exec=studio -a natron
-Icon=/venture/icons/natron.png
+Exec=/venture/source_code/resource/studio/natron/main.sh
+Icon=/venture/source_code/icons/natron.png
 Categories=Application
 Version=2.3.13
 Type=Application

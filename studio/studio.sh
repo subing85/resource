@@ -49,8 +49,8 @@ function studio
 			
 			#execute bundle main
 			if [ $1 = "--app" ] || [ $1 = "-a" ]; then
-				current_bundle=$STUDIO_PATH"/"$2"/main.sh"
-				if [ -G $current_bundle ]; then
+				current_bundle=$STUDIO_PATH"/"$2"/main.sh"				
+				if [ -f $current_bundle ]; then
 					source $current_bundle
 					echo $current_bundle
 				else
@@ -61,4 +61,4 @@ function studio
 			echo "not found directory "$studio_path
 		fi 	
 	}
-studio $1 $2 $3 $4
+studio $1 $2 $3 $4 

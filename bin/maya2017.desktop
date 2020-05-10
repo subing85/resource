@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Autodesk Maya 2017
+Comment=Run Autodesk Maya 2017
+Exec=/venture/source_code/resource/studio/maya2017/main.sh
+Icon=/venture/source_code/icons/maya2017.png
+Categories=Application;Graphics;
+Version=2017
+Type=Application
+Terminal=1

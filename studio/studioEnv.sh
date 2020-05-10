@@ -20,7 +20,7 @@ echo "Author: Subin. Gopi (subing85@gmail.com)"
 echo "Copyright (c) 2018, Subin Gopi All rights reserved."
 echo "####################################################"
 
-export DRIVE="/venture"
+export DRIVE="/venture/source_code"
 
 #root
 export PACKAGE_ROOT=$DRIVE$"/package"
@@ -37,7 +37,7 @@ export PYTHON_DIR=$COMMON_PYTHON_DIR"/python-"$PYTHON_VERSION_LONGNAME
 export PYTHON_LIB_PATH=$PYTHON_DIR$"/Lib"
 export PYTHON_SITE_PACK_PATH=$PYTHON_LIB_PATH$"/site-packages"
 # export PYTHONPATH=$PYTHON_DIR:$STUDIO_PATH
-export PYTHONPATH=$STUDIO_PATH
+export PYTHONPATH=$STUDIO_PATH:
 
 #software
 export SOFTWARE_PATH=$DRIVE$"/software"
